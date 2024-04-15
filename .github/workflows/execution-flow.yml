@@ -81,7 +81,7 @@ jobs:
     if: failure()
     steps:
       - name: Output information
-        runs: |
+        run: |
           echo "Something went wrong"
           echo "${{ toJSON(github) }}"
 
