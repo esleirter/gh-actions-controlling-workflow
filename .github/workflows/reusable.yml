@@ -5,4 +5,4 @@ jobs:
     run: ubuntu-latest
     steps:
       - name: Output information
-        runs: echo "Deploying reusable..."
+        run: echo "Deploying reusable..."
