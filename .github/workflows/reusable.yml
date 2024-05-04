@@ -1,6 +1,6 @@
 Name: Reusable workflow
 on: workflow_call
-job:
+jobs:
   reusable_deploy:
     run: ubuntu-latest
     steps:
